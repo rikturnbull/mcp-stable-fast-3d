@@ -66,7 +66,7 @@ Add this to your Claude Desktop configuration file (`claude_desktop_config.json`
   "mcpServers": {
     "stable-fast-3d": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/YOUR_USERNAME/mcp-stable-fast-3d", "mcp-stable-fast-3d"],
+      "args": ["--from", "git+https://github.com/rikturnbull/mcp-stable-fast-3d", "mcp-stable-fast-3d"],
       "env": {
         "STABILITY_API_KEY": "sk-your-api-key-here"
       }
@@ -117,7 +117,7 @@ Add to your VS Code `settings.json` or create `.vscode/mcp.json` in your project
   "servers": {
     "stable-fast-3d": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/YOUR_USERNAME/mcp-stable-fast-3d", "mcp-stable-fast-3d"],
+      "args": ["--from", "git+https://github.com/rikturnbull/mcp-stable-fast-3d", "mcp-stable-fast-3d"],
       "env": {
         "STABILITY_API_KEY": "sk-your-api-key-here"
       }
